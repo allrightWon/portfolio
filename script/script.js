@@ -1,4 +1,5 @@
 $(function ($) {
+  new WOW().init();
   const portfolio = {
     init() {
       this.header();

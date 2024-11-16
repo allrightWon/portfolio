@@ -11,7 +11,7 @@
   font-family: "Pretendard Variable";
 }
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 body {
   margin: 0;
@@ -267,6 +267,7 @@ header.active .header-nav a:hover {
 .profile-img {
   flex: 1;
   text-align: center;
+  animation: profile_img 1s linear;
 }
 .profile-img img {
   width: 300px;
@@ -276,6 +277,7 @@ header.active .header-nav a:hover {
 .profile {
   flex: 2;
   padding-top: 40px;
+  animation: profile_text 1s linear;
 }
 .profile h3 {
   font-size: 28px;
@@ -324,6 +326,25 @@ header.active .header-nav a:hover {
   content: "•";
   padding-right: 5px;
 }
+/* Profile Animation */
+@keyframes profile_img {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes profile_text {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 /* Section : Skill */
 .skill-section {
   background-color: #000;
@@ -336,6 +357,7 @@ header.active .header-nav a:hover {
   display: flex;
   gap: 30px;
   margin-bottom: 50px;
+  animation: skill_and_tool 1s linear;
 }
 .skill-and-tool ul li {
   flex: 1;
@@ -367,6 +389,16 @@ header.active .header-nav a:hover {
   font-weight: 500;
   word-break: keep-all;
   line-height: 1.5em;
+}
+/* Skill & Tool Anmiation */
+@keyframes skill_and_tool {
+  0% {
+    transform: translateY(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 /* Section : Portfolio */
 .portfolio-section {
