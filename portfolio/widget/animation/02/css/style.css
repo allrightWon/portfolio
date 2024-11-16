@@ -1,0 +1,118 @@
+/* fontawesome CDN */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* xeicon CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+
+/* font(pretendard) CDN */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* reset */
+* {
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  height: 100vh;
+  color: #222;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.open-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.container.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.container h1 {
+  margin-top: 80px;
+}
+
+.loading-box {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  position: relative;
+}
+
+.loading-box span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: crimson;
+  top: 0;
+  left: 0;
+  animation: loading 1.5s infinite;
+}
+.loading-box span:nth-child(1) {
+}
+.loading-box span:nth-child(2) {
+  animation-delay: 0.75s;
+}
+
+@keyframes loading {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: calc(100% - 10px);
+    background-color: blue;
+  }
+  50% {
+    top: calc(100% - 10px);
+    left: calc(100% - 10px);
+    background-color: teal;
+  }
+  75% {
+    top: calc(100% - 10px);
+    left: 0;
+    background-color: springgreen;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: orchid;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

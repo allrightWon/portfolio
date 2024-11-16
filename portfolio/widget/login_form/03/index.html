@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유효성 체크 애니메이션</title>
+    <link rel="icon" href="./images/react_favi.png" />
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- jQuery CDN -->
+    <script src="./script/jquery-1.12.4.js" defer></script>
+    <!-- script.js -->
+    <script src="./script/script.js" defer></script>
+  </head>
+  <body>
+    <section class="login">
+      <img src="./images/react_logo.webp" alt="" />
+      <h1>React.js Login</h1>
+      <form>
+        <div class="input-field">
+          <input type="email" id="userEmail" autocomplete="off" required /><span
+            >USER EMAIl</span
+          >
+        </div>
+        <div class="input-field">
+          <input
+            type="password"
+            id="userPw"
+            required
+            maxlength="12"
+            minlength="8"
+          /><span>PASSWORD</span>
+        </div>
+        <div class="button-field">
+          <input type="submit" value="Sign in" id="login-btn" />
+          <div class="add-info">
+            <label
+              ><input type="checkbox" id="save-email" /><em></em
+              ><span>Save your Email?</span></label
+            >
+            <a href="#">Forgot Password?</a>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

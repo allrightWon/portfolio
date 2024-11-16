@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AllrightWon's Portfolio</title>
+    <!-- jQUery CDN -->
+    <script src="/script/jquery-1.12.4.js" defer></script>
+    <!-- Plugin : Featherlight -->
+    <script src="/plugin/featherlight/featherlight.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="/plugin/featherlight/featherlight_custom.css"
+    />
+    <link rel="stylesheet" href="/plugin/featherlight/featherlight.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <!-- Custom Script -->
+    <script src="/script/script.js" defer></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- Go top Button -->
+      <div class="go-top-btn">
+        <i class="xi-long-arrow-up"></i>
+      </div>
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <i class="xi-close mobile-nav-close"></i>
+        <ul>
+          <li>
+            <a href="#intro">INTRO</a>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#skill">SKILL</a>
+          </li>
+          <li>
+            <a href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#epilogue">EPILOUGE</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Header -->
+      <header>
+        <div class="inner">
+          <div class="logo">
+            <img src="/images/header/logo.png" alt="헤더 로고 이미지" />
+          </div>
+          <!-- Mobile Hamburger Btn -->
+          <div class="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="header-nav">
+            <ul>
+              <li>
+                <a href="#intro">INTRO</a>
+              </li>
+              <li>
+                <a href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#skill">SKILL</a>
+              </li>
+              <li>
+                <a href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li>
+                <a href="#epilogue">EPILOUGE</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <!-- Section : Intro -->
+        <section id="intro" class="intro-section">
+          <div class="inner">
+            <div class="heading">
+              <h1>AllrightWon's<span>Publishing Portfolio</span></h1>
+            </div>
+          </div>
+        </section>
+        <!-- Section : About -->
+        <section id="about" class="about-section">
+          <div class="inner">
+            <h2>about me</h2>
+            <div class="about-me">
+              <div class="profile-img">
+                <img
+                  src="./images/about_section/profile_image.png"
+                  alt="개인 프로필 이미지"
+                />
+              </div>
+              <div class="profile">
+                <h3>신입 웹퍼블리셔 안재원입니다.</h3>
+                <p>
+                  코드를 통해 원하는 대로 화면을 그려낼 때 큰 성취감을 느낍니다.
+                  기본에 충실한 퍼블리싱을 가장 중요하게 여기지만, 이에 그치지
+                  않고 꾸준한 학습을 통해 신기술을 적용시켜 더욱 매력적이고
+                  완성도 높은 웹 페이지를 제작하고자 합니다.
+                </p>
+                <div class="education">
+                  <h4>Education</h4>
+                  <ul>
+                    <li>
+                      <span class="period">2020.03 - 2024.02</span>
+                      <span>안산대학교 컴퓨터정보학과 졸업</span>
+                    </li>
+                    <li>
+                      <span class="period">2024.01 - 2024.07</span>
+                      <span>그린컴퓨터아카데미 TDD풀스택 과정 수료</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section : Skill -->
+        <section id="skill" class="skill-section">
+          <div class="inner">
+            <h2>skills & tool</h2>
+            <div class="skill-and-tool">
+              <ul class="skill">
+                <li>
+                  <h3>HTML5</h3>
+                  <div class="skill-desc">
+                    <i class="xi-html5"></i>
+                    <p>
+                      HTML5에서 권장하는 마크업 방식과 시멘틱 태그를 사용하여
+                      작업하며 레이아웃, 태그, 클래스네임, 아이디 등 페이지의
+                      구조를 미리 설계한 후 꼼꼼히 작업을 진행합니다.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <h3>CSS3</h3>
+                  <div class="skill-desc">
+                    <i class="xi-css3"></i>
+                    <p>
+                      flex, grid, position 등 다양한 레이아웃 기법을 활용하여
+                      요소들을 배치할 수 있으며 @keyframes, transform을 이용한
+                      변형 효과 적용, 가상 클래스를 이용한 세밀한 스타일 조정 등
+                      여러가지 활용이 가능합니다.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <h3>JS & jQuery</h3>
+                  <div class="skill-desc">
+                    <i class="xi-javascript"></i>
+                    <p>
+                      JS와 jQuery 각각의 방식으로 요소 선택(querySelector,
+                      $('')), 클래스 조작(classList, add(remove)Class), 이벤트
+                      처리(addEventListener), 요소 조작(innerHTML, html) 등이
+                      가능하여 페이지를 동적인 페이지 제작이 가능합니다.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="tool">
+                <li>
+                  <h3>PHOTOSHOP</h3>
+                  <div class="tool-desc">
+                    <i class="xi-photoshop"></i>
+                    <p>포토샵은아직적을게없음ㅋ</p>
+                  </div>
+                </li>
+                <li>
+                  <h3>VSCODE & NOTEPAD++</h3>
+                  <div class="tool-desc">
+                    <i class="xi-code"></i>
+                    <p>
+                      작업을 위한 메인 에디터로는 visual studio code를 사용하며
+                      다양한 에밋과 확장을 통해 조금 더 효율적인 코딩을
+                      진행합니다.<br />
+                      서브 에디터는 notepad++이며 작업 전 구조 설계 시에 주로
+                      사용합니다.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Section : Portfolio -->
+        <section id="portfolio" class="portfolio-section">
+          <div class="inner">
+            <h2>publishing portfolio</h2>
+            <div class="portfolio-container">
+              <div class="change-tab">
+                <span class="active" data-tab="website">website portfolio</span>
+                <span data-tab="widget">widget portfolio</span>
+              </div>
+              <div class="portfolio website active">
+                <input type="radio" name="web-slide" id="web-slide1" checked />
+                <input type="radio" name="web-slide" id="web-slide2" />
+                <input type="radio" name="web-slide" id="web-slide3" />
+                <input type="radio" name="web-slide" id="web-slide4" />
+                <input type="radio" name="web-slide" id="web-slide5" />
+                <input type="radio" name="web-slide" id="web-slide6" />
+                <input type="radio" name="web-slide" id="web-slide7" />
+                <input type="radio" name="web-slide" id="web-slide8" />
+                <input type="radio" name="web-slide" id="web-slide9" />
+                <div class="website-slide">
+                  <ul class="website-list">
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>NAVER VIBE : 반응형</h3>
+                          <p>디바이스 : PC, MOBILE</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery + Slick Slider</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/vibe_thumb.png"
+                          alt="웹페이지 바이브 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/01/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                        <a
+                          href="/portfolio/website/01/m_index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>CJ Olive Young : 반응형</h3>
+                          <p>디바이스 : PC, MOBILE</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/cj_olive_thumb.png"
+                          alt="웹페이지 올리브영 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/02/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                        <a
+                          href="/portfolio/website/02/m_index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>NETFLIX : 반응형</h3>
+                          <p>디바이스 : PC, MOBILE</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery + Slick Slider</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/netflex_thumb.png"
+                          alt="웹페이지 넷플릭스 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/03/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                        <a
+                          href="/portfolio/website/03/m_index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>Firefox : 반응형</h3>
+                          <p>디바이스 : PC, MOBILE</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/firefox_thumb.png"
+                          alt="웹페이지 파이어폭스 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/04/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                        <a
+                          href="/portfolio/website/04/m_index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>Altools : PC</h3>
+                          <p>디바이스 : PC</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery + Slick Slider</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/altools_thumb.png"
+                          alt="웹페이지 알툴즈 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/05/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>Binggrae : PC</h3>
+                          <p>디바이스 : PC</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/binggare_thumb.png"
+                          alt="웹페이지 빙그레 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/06/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>Nhis(국민건강보험공단) : PC</h3>
+                          <p>디바이스 : PC</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/nhis_thumb.png"
+                          alt="웹페이지 국민건강보험 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/07/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>MONAMI : PC</h3>
+                          <p>디바이스 : PC</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery + Slick Slider</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/monami_thumb.png"
+                          alt="웹페이지 모나미 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/08/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="website-mockup">
+                        <div class="website-desc">
+                          <h3>YES24 : PC</h3>
+                          <p>디바이스 : PC</p>
+                          <p>제작참여 : 100%</p>
+                          <p>제작방식 : HTML + CSS + jQuery</p>
+                        </div>
+                        <img
+                          src="/images/portfolio_section/pc_mockup.png"
+                          class="mockup"
+                          alt=""
+                        />
+                        <img
+                          class="website-thumb"
+                          src="/images/portfolio_section/website_thumb/yes24_thumb.png"
+                          alt="웹페이지 YES24 썸네일 이미지"
+                        />
+                      </div>
+                      <div class="website-view">
+                        <a
+                          href="/portfolio/website/09/index.html"
+                          data-featherlight="iframe"
+                        >
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="website-slide-btn">
+                  <label for="web-slide1">Vibe</label>
+                  <label for="web-slide2">CJ_OY</label>
+                  <label for="web-slide3">Netflix</label>
+                  <label for="web-slide4">Firefox</label>
+                  <label for="web-slide5">Altools</label>
+                  <label for="web-slide6">Binggrae</label>
+                  <label for="web-slide7">Nhis</label>
+                  <label for="web-slide8">Monami</label>
+                  <label for="web-slide9">YES24</label>
+                </div>
+              </div>
+              <div class="portfolio widget">
+                <div class="inner">
+                  <div class="widget-container">
+                    <div class="widget-tab-change">
+                      <span data-tab="widget-tab1" class="active"
+                        >Login Form</span
+                      >
+                      <span data-tab="widget-tab2">Hover Effect</span>
+                      <span data-tab="widget-tab3">Animation</span>
+                      <span data-tab="widget-tab4">etc</span>
+                    </div>
+                    <div class="widget-tab">
+                      <div class="widget-tab1 active">
+                        <ul class="widget-list">
+                          <li>
+                            <a
+                              href="/portfolio/widget/login_form/01/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/login_form/01_thumb.png"
+                                alt="spotify 로그인 페이지 썸네일 이미지"
+                            /></a>
+                            <span>스포티파이 로그인 폼</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/login_form/02/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/login_form/02_thumb.png"
+                                alt="kream 로그인 페이지 썸네일 이미지"
+                            /></a>
+                            <span>크림 로그인 폼</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/login_form/03/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/login_form/03_thumb.png"
+                                alt="커스텀 로그인 페이지 썸네일 이미지"
+                            /></a>
+                            <span>커스텀 로그인 폼</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="widget-tab2">
+                        <ul class="widget-list">
+                          <li>
+                            <a
+                              href="/portfolio/widget/hover_effect/01/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/hover_effect/01_thumb.png"
+                                alt="ZARA 레퍼런스 페이지 썸네일 이미지"
+                            /></a>
+                            <span>ZARA 쇼핑몰 아이템</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/hover_effect/02/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/hover_effect/02_thumb.png"
+                                alt="최신영화 Flexbox 썸네일 이미지"
+                            /></a>
+                            <span>최신영화 Flexbox</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/hover_effect/03/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/hover_effect/03_thumb.png"
+                                alt="앨범 상세설명 페이지 썸네일 이미지"
+                            /></a>
+                            <span>앨범 상세설명 위젯</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/hover_effect/04/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/hover_effect/04_thumb.png"
+                                alt="게임 소개 위젯 썸네일 이미지"
+                            /></a>
+                            <span>게임 소개 위젯</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="widget-tab3">
+                        <ul class="widget-list">
+                          <li>
+                            <a
+                              href="/portfolio/widget/animation/01/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/animation/01_thumb.png"
+                                alt="로고 필터 애니메이션 썸네일 이미지"
+                            /></a>
+                            <span>로고 필터 애니메이션</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/animation/02/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/animation/02_thumb.png"
+                                alt="사각형 로딩 애니메이션 썸네일 이미지"
+                            /></a>
+                            <span>사각형 로딩 애니메이션</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/animation/03/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/animation/03_thumb.png"
+                                alt="원 로딩 애니메이션 썸네일 이미지"
+                            /></a>
+                            <span>원 로딩 애니메이션</span>
+                          </li>
+                          <li>
+                            <a
+                              href="/portfolio/widget/animation/04/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/animation/04_thumb.png"
+                                alt="써클 로딩 애니메이션 썸네일 이미지"
+                            /></a>
+                            <span>써클 로딩 애니메이션</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="widget-tab4">
+                        <ul class="widget-list">
+                          <li>
+                            <a
+                              href="portfolio/widget/etc/01/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/etc/01_thumb.png"
+                                alt="금주의 추천 도서 페이지 썸네일 이미지"
+                            /></a>
+                            <span>금주의 추천 도서</span>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/widget/etc/02/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/etc/02_thumb.png"
+                                alt="별점 리뷰 페이지 썸네일 이미지"
+                            /></a>
+                            <span>별점 리뷰 페이지</span>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/widget/etc/03/index.html"
+                              data-featherlight="iframe"
+                              ><img
+                                src="/images/portfolio_section/widget_thumb/etc/03_thumb.png"
+                                alt="개인 프로필 카드 썸네일 이미지"
+                            /></a>
+                            <span>개인 프로필 카드</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section : Epilouge -->
+        <section id="epilogue" class="epilouge-section">
+          <div class="inner">
+            <h2><span>웹 퍼블리셔</span>로서의 첫 걸음</h2>
+            <p>
+              이 직군에 <span>배움의 끝은 없다</span>는 사실을 잘 알고
+              있습니다.<br />이러한 깨달음은 저의 부족함을 자각하게 하지만<br />
+              동시에 꾸준히 <span>성장</span>할 수 있음을 알려주기도 합니다<br />
+              이를 잊지 않고, 강한 <span>책임감</span>과 <span>열정</span>으로
+              <span>성장</span>하는 퍼블리셔가 되겠습니다.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
