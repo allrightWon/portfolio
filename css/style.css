@@ -229,7 +229,7 @@ header.active .header-nav a:hover {
 /* Section : Intro */
 .intro-section {
   padding-top: 90px;
-  background: url(/images/intro_section/intro_bg.jpg) no-repeat center center;
+  background: url(../images/intro_section/intro_bg.jpg) no-repeat center center;
   height: 100vh;
   position: relative;
 }
