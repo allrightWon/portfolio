@@ -11,7 +11,7 @@
   font-family: "Pretendard Variable";
 }
 html {
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
