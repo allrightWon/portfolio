@@ -517,6 +517,18 @@ header.active .header-nav a:hover {
   margin: auto;
   margin-top: 15px;
   text-align: right;
+  position: relative;
+}
+.website-view:after {
+  content: "<- View";
+  font-weight: 600;
+  position: absolute;
+  width: 60px;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  padding: 5px 10px;
 }
 .website-view a {
   display: inline-block;
