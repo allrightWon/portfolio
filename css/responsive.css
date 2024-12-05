@@ -108,13 +108,13 @@
     font-size: 16px;
   }
   .website-mockup .mockup {
-    width: 250px;
+    width: 79%;
   }
   .website-thumb {
-    width: 238px;
-    height: 120px;
-    left: 40px;
-    top: 67px;
+    width: 75%;
+    height: 38%;
+    top: 20%;
+    left: 12.5%;
   }
   .website-view {
     width: 100%;
@@ -131,14 +131,12 @@
     font-size: 34px;
   }
   .website-slide-btn {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   .website-slide-btn label {
-    flex: 1;
-    font-size: 14px;
+    margin: 0;
   }
   /* Portfolio Tab : Widget */
   .widget {
@@ -156,6 +154,7 @@
     flex: 1;
     white-space: nowrap;
     font-size: 14px;
+    text-align: center;
   }
   .widget-list {
     grid-template-columns: 1fr;

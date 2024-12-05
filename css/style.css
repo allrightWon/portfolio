@@ -503,14 +503,14 @@ header.active .header-nav a:hover {
   visibility: visible;
 }
 .website-mockup .mockup {
-  width: 600px;
+  width: 74%;
 }
 .website-thumb {
   position: absolute;
-  width: 570px;
-  height: 285px;
-  left: 120px;
-  top: 77px;
+  width: 70%;
+  height: 48%;
+  left: 15%;
+  top: 13%;
 }
 .website-view {
   width: 70%;
