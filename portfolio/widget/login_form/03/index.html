@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>유효성 체크 애니메이션</title>
-    <link rel="icon" href="./images/react_favi.png" />
+    <title>Music Platform</title>
     <!-- style.css -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- jQuery CDN -->
@@ -13,35 +12,42 @@
     <script src="./script/script.js" defer></script>
   </head>
   <body>
-    <section class="login">
-      <img src="./images/react_logo.webp" alt="" />
-      <h1>React.js Login</h1>
-      <form>
-        <div class="input-field">
-          <input type="email" id="userEmail" autocomplete="off" required /><span
-            >USER EMAIl</span
-          >
+    <div class="container">
+      <div class="signin">
+        <div class="signin-bg">
+          <img src="./images/signin_background.jpg" alt="" />
         </div>
-        <div class="input-field">
-          <input
-            type="password"
-            id="userPw"
-            required
-            maxlength="12"
-            minlength="8"
-          /><span>PASSWORD</span>
-        </div>
-        <div class="button-field">
-          <input type="submit" value="Sign in" id="login-btn" />
-          <div class="add-info">
-            <label
-              ><input type="checkbox" id="save-email" /><em></em
-              ><span>Save your Email?</span></label
-            >
-            <a href="#">Forgot Password?</a>
+        <form class="signin-form">
+          <h2 class="heading">당신을 위한 음악 플랫폼</h2>
+          <p>지친 하루, 음악과 함께 쉬어가세요.</p>
+          <div class="field email-field">
+            <b>Email</b>
+            <input type="email" placeholder="이메일을 입력하세요" />
           </div>
-        </div>
-      </form>
-    </section>
+          <div class="field password-field">
+            <b>Password</b>
+            <input type="email" placeholder="비밀번호를 입력하세요" />
+          </div>
+          <div class="support-box">
+            <label for="remember-id">
+              <input type="checkbox" id="remember-id" /><span>Remember ID</span>
+            </label>
+            <a class="search-id" href="#">아이디를 잊으셨나요?</a>
+          </div>
+          <div class="btn-box">
+            <button class="signin-btn">Signin</button>
+          </div>
+          <div class="horizon">
+            <span></span>
+            <span class="horizon-text">Social Signin</span>
+            <span></span>
+          </div>
+          <div class="sns-signin">
+            <a href="#"><i class="fa fa-google"></i>google로 로그인</a>
+            <a href="#"><i class="fa fa-facebook"></i>facebook으로 로그인</a>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
